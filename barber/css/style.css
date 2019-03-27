@@ -9823,9 +9823,7 @@ body:not(.device-touch) .clients-grid li a {
 
 .team-bio {
 	color: #fff;
-	background-color: #667;
 	font-weight: 400;
-	margin-top: 25%;
 }
 .team-desc { text-align: center; }
 

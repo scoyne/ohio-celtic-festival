@@ -325,14 +325,14 @@ textarea.border-form-control {
 	nav.custom-hero-nav {
 		display: block;
 		margin-top: 60px;
-		background-color: #057a3a;
+		background-color: #000 /* dark green #057a3a; */
 	}
 
 	nav.custom-hero-nav li { display: inline-block; }
 
 	nav.custom-hero-nav li a {
-		padding: 0 18px;
-		font-size: 30px; /* changed from 16px */
+		padding: 0 25px;
+		font-size: 1.25rem; /* changed from 16px */
 		text-transform: uppercase;
 		font-weight: 600;
 		letter-spacing: 2px;
