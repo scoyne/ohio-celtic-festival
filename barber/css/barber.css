@@ -324,8 +324,8 @@ textarea.border-form-control {
 
 	nav.custom-hero-nav {
 		display: block;
-		margin-top: 60px;
-		background-color: #000 /* dark green #057a3a; */
+		margin-top: -55px; /* was 60px */ 
+		/* background-color: #000 /* dark green #057a3a; */
 	}
 
 	nav.custom-hero-nav li { display: inline-block; }
@@ -373,3 +373,9 @@ textarea.border-form-control {
 	.price-wrap { padding: 0 25px; }
 }
 
+.branding {
+	background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
