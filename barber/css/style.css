@@ -3528,7 +3528,8 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #FFF;
+	background-color: #000; /* changed from #fff */
+	/* color: #fff; */
 }
 
 #content p { line-height: 1.8; }
@@ -9813,12 +9814,15 @@ body:not(.device-touch) .clients-grid li a {
 
 
 .team,
-.team-image { position: relative; }
+.team-image { 
+	position: relative; 
+}
 
 .team-image > a,
 .team-image img {
 	display: block;
 	width: 100%;
+	border: solid #bf9456;
 }
 
 .team-bio {
