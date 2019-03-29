@@ -3529,10 +3529,16 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	position: relative;
 	overflow: hidden;
 	background-color: #000; /* changed from #fff */
-	/* color: #fff; */
+	color: #fff; */
 }
 
-#content p { line-height: 1.8; }
+#content p { 
+	line-height: 1.8; 
+}
+
+#content h2 {
+	color: #bf9456;
+}
 
 .content-wrap {
 	position: relative;
