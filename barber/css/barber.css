@@ -19,7 +19,9 @@ nav.custom-hero-nav { display: none; }
 	top: 25px;
 }
 
-.slider-social a { color: rgba(255, 255, 255, 0.75); }
+.slider-social a { 
+	color: rgba(255, 255, 255, 0.75);
+}
 
 .slider-social a:hover { color: #FFF; }
 
@@ -377,5 +379,32 @@ textarea.border-form-control {
 	background-color: #000;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+	width: 60%;
+	height: 400px;
+	display: inline-block;
+
+}
+
+.branding-logo {
+	height: 250px;
+
+}
+
+.branding-slogan {
+	height: 355px;
+	padding-left: 50px;
+}
+
+.branding-timer {
+	color: #bF9456 !important;
+	display: inline-flex;
+	float: right;
+	margin-top: 155px;
+}
+
+.branding-ticket {
+	background-color: limegreen;
+	width: 50%;
+	float: right;
+
 }

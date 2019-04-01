@@ -6481,9 +6481,11 @@ td.actions {
 
 .countdown-amount {
 	display: block;
-	font-size: 20px;
-	color: #333;
+	font-size: 25px;
+	color: #bF9456; /* changed from #333 */
 	margin-bottom: 5px;
+	background-color: #000;
+	padding: 0 20px;
 }
 
 .countdown-descr {
@@ -6506,7 +6508,9 @@ td.actions {
 /* Countdown - Large
 -----------------------------------------------------------------*/
 
-.countdown-large .countdown-section { font-size: 18px; }
+.countdown-large .countdown-section { 
+	font-size: 18px; 
+}
 
 .countdown-large .countdown-amount {
 	font-size: 44px;

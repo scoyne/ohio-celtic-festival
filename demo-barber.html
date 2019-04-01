@@ -3,7 +3,7 @@
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+	<meta name="Stephen Coyne" content="Information for the Ohio Celtic" />
 
 	<!-- Stylesheets
 	============================================= -->
@@ -11,8 +11,6 @@
 	<link rel="stylesheet" href="barber/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="barber/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="barber/css/dark.css" type="text/css" />
-
-	<!-- Barber Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="barber/css/barber.css" type="text/css" />
 	<link rel="stylesheet" href="barber/css/fonts.css" type="text/css" />
 	<!-- / -->
@@ -52,7 +50,6 @@
 			<div id="header-wrap">
 
 				<div class="container norightpadding clearfix">
-
 					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
 					<!-- Logo
@@ -71,7 +68,7 @@
 							<li><a href="#" data-offset="56" data-href="#location">Location</a></li>
 							<li><a href="#" data-href="#price">Price</a></li>
 							<li><a href="#" data-href="#entertainment">Entertainment</a></li>
-							<li><a href="#" data-href="#testimonial">Sponsors</a></li>
+							<li><a href="#" data-href="#sponsor">Sponsors</a></li>
 							<li><a href="#" data-href="#contact">Contact</a></li>
 							<li><a href="#" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300" class="button button-color reverse clearfix"><i class="icon-calendar2"></i> Tickets</a></li>
 						</ul>
@@ -90,10 +87,12 @@
 
 			<div class="slider-parallax-inner" style="background: url('barber/images/hero/crowd-2.png') center center no-repeat; background-size: cover;">
 				<div class="vertical-middle center" style="z-index: 2;">
+					
 					<div class="branding">
-						<img src="barber/images/ocf-logo.png" alt="Ohio Celtic Festival Logo" height="250">
-						<img src="barber/images/ocf-slogan.png" alt="Ohio Celtic Festival Slogan" height="400">
+						<img class="branding-logo" src="barber/images/ocf-logo.png" alt="Ohio Celtic Festival Logo">
+						<img class="branding-slogan" src="barber/images/ocf-slogan.png" alt="Ohio Celtic Festival Slogan">
 					</div>	
+				
 					<!-- Slider Navigation
 					============================================= -->
 					<nav class="custom-hero-nav">
@@ -102,15 +101,22 @@
 							<li><a href="#" data-offset="56" data-href="#location">Location</a></li>
 							<li><a href="#" data-href="#price">Price</a></li>
 							<li><a href="#" data-href="#entertainment">Entertainment</a></li>
-							<li><a href="#" data-href="#testimonial">Sponsors</a></li>
+							<li><a href="#" data-href="#sponsor">Sponsors</a></li>
 							<li><a href="#" data-href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
 
-				<!-- Slider Appointment Button
+				
+				<!-- Slider Ticket Button
 				============================================= -->
-				<a href="#" class="button button-large button-color button-appointment d-none d-lg-block" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Buy Your Tickets Here</a>
+				<div class="branding-ticket">
+					<div class="bottommargin clearfix pull-right" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
+						<i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline is-countdown" style="margin-top: 7px;"><span class="countdown-row countdown-show3"><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Seconds</span></span></span></div>
+					
+						<a href="#" class="button button-large button-color button-appointment d-none d-lg-block" data-scrollto="#contact" data-offset="62" data-easing="easeInOutExpo" data-speed="1300"><i class="icon-calendar2"></i> Buy Your Tickets Here</a>
+					</div>
+				</div>
 
 				<!-- Slider Social Icons
 				============================================= -->
@@ -128,18 +134,16 @@
 						<i class="icon-instagram"></i>
 					</a>
 				</div>
-
-				<div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
-					<div class="video-overlay" style="background: rgba(0,0,0,0.3);"></div>
-				</div>
 			</div>
-
 		</section>
 
 		<!-- Content
 		============================================= -->
 		<section id="content" style="border-top: 8px solid #bf9456">
 
+			<div class="bottommargin clearfix" style="display:block; border-top:1px solid rgba(255,255,255,0.2); border-bottom:1px solid rgba(255,255,255,0.2); max-width: 350px; padding: 15px 0; font-size: 16px;">
+				<i class="icon-line-clock i-plain notopmargin nobottommargin"></i> <div id="countdown-ex4" class="countdown countdown-inline" style="margin-top: 7px;"></div>
+			</div>
 			<div class="content-wrap nopadding">
 
 				<!-- About Section
@@ -1286,5 +1290,14 @@
 		});
 	</script>
 
-</body>
+	<script>
+		jQuery(document).ready(function($) {
+			// CountDown
+			var newDate4 = new Date(2019, 9, 20) + 72000;
+			$('#countdown-ex4').countdown({until: newDate4, format: 'HMS'});
+		});
+	</script>
+
+
+	</body>
 </html>
