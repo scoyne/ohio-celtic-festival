@@ -9,6 +9,7 @@
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=PT+Serif:400,400i,700|Roboto:400,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="conference/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="barber/css/style.css" type="text.css" />
 	<link rel="stylesheet" href="conference/style.css" type="text/css" />
 	<link rel="stylesheet" href="conference/css/dark.css" type="text/css" />
 
@@ -88,17 +89,22 @@
 			<div class="vertical-middle" style="z-index: 2;">
 				<div class="container dark clearfix">
 					<div class="row justify-content-between mt-4 clearfix">
-						<div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
-							<span class="gradient-underline h4">Be a part of the 2019</span>
-							<h2 class="t700 display-2 mb-0">Ohio Celtic Festival</h2>
+						<div class="col-lg-6 tright parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
+							<img class="logo-hero"src="barber/images/ocf-logo.png" />
+							
 						</div>
-						<div class="col-lg-6 tright d-flex align-items-end flex-column parallax" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
+						<div class="col-lg-6 tleft align-items-end flex-column parallax" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
 							<div class="mt-auto">
-								<h2 class="mb-2 gradient-text">September 20-22, 2019</h2>
-								<h4 class="t400">Mentor Civic Amphitheater<br>Mentor, OH</h4>
+								<p></p>
+								
+								<p class="date-hero">September 20 - 22</p>
+								<p class="location-hero">Mentor Civic Amphitheater<br>Mentor, OH</p>
 								<a href="#section-tickets" class="button button-xxlarge button-white button-gradient m-0" data-scrollto="#section-tickets">Get Tickets Now</a>
 							</div>
 						</div>
+						<div id="countdown-ex1" class="countdown countdown-large coming-soon divcenter bottommargin" style="max-width:700px;"></div>
+						<div class="divider divider-center divider-short divider-margin"><i class="icon-time"></i></div>
+
 					</div>
 				</div>
 			</div>
@@ -176,189 +182,561 @@
 
 				<!-- Section Entertainers
 				============================================= -->
+				
 				<div id="section-entertainers" class="section page-section nobg pt-0 topmargin-lg clearfix">
 					<div class="container">
 						<div class="mb-5 dark d-flex flex-wrap justify-content-between align-items-center">
 							<span class="display-4 t700 gradient-underline mb-0">Entertainers</span>
-							<a href="#" class="button button-effect m-0">Show All Entertainment</a>
 						</div>
-						<div class="card-columns divcenter dark"  style="max-width: 1000px;">
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/screaming-orphans.png" alt="The Screaming Orphans Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Screaming Orphans </h4><span>Donegal, Ireland</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/american-rogues.png" alt="The American Rogues Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">American Rogues </h4><span>Ontario, Canada</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/off-kilter.png" alt="Off Kilter Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Off Kilter </h4><span>Orlando, Florida</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/narrowbacks.png" alt="The Narrowbacks Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">The Narrowbacks </h4><span>Bronx, New York</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/gaelic-brew.png" alt="Gaelic Brew Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Gaelic Brew </h4><span>Cork, Ireland</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/byrne-brothers.png" alt="The Byrne Brothers Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">The Byrne Brothers </h4><span>Donegal, Ireland</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/colm-keegan.png" alt="Colm Keegan Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Colm Keegan </h4><span>Dublin, Ireland</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/marys-lane.png" alt="Mary's Lane Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Mary's Lane </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/new-barleycorn.png" alt="The New Barleycorn Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">The New Barleycorn </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/brigids-cross.png" alt="Brigid's Cross Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Brigid's Cross </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/andrew-mcmanus.png" alt="Andrew McManus Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Andrew McManus </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/no-strangers-here.png" alt="No Strangers Here Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">No Strangers Here </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/mad-macs.png" alt="Mad Macs Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title"><h4 class="gradient-text">Mad Macs </h4><span>Cleveland, Ohio</span></div>
-								</div>
-							</a>
-
-
-							<a href="http://www.murphyirishartscenter.net/" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/murphy-irish-arts.jpg" alt="Murphy Irish Arts Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title">
-										<h4 class="gradient-text">Murphy Irish Arts Center </h4><span>Cleveland, Ohio</span>
-									</div>
-								</div>
-							</a>
-							
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/leneghan-academy.jpg" alt="Lenehan Academy of Irish Dance logo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title">
-										<h4 class="gradient-text">Leneghan Academy of Irish Dance </h4><span>Cleveland, Ohio</span>
-									</div>
-								</div>
-							</a>
-							
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/eastside-pipes-and-drums.jpg" alt="Irish American Clube East Side Pipes & Drums Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title">
-										<h4 class="gradient-text">Irish American Clube East Side Pipes &amp; Drums </h4><span>Cleveland, Ohio</span>
-									</div>
-								</div>
-							</a>
-							
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/black-sheep-pipes-and-drums.jpg" alt="Black Sheep Pipes & Drums Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title">
-										<h4 class="gradient-text">Black Sheep Pipes &amp; Drums </h4><span>Cleveland, Ohio</span>
-									</div>
-								</div>
-							</a>
-							
-							<a href="#" class="team">
-								<div class="team-image">
-									<img src="conference/images/speakers/jack-mcdonough-fife-and-drums.jpg" alt="Jack McDonough Fife & Drum Corp. Photo">
-								</div>
-								<div class="team-desc">
-									<div class="team-title">
-										<h4 class="gradient-text">Jack McDonough Fife &amp; Drums </h4><span>Cleveland, Ohio</span>
-									</div>
-								</div>
-							</a>
-
+						<div class="heading-block">
+							<h3></h3>
+							<span>We take great pride in delivering to you the <strong><em>the very best in Irish Entertainment</em></strong>.  This year is no exception. Check out the AMAZING line-up we have for you this year.  Click on a band's photos to learn more about them.</span>
 						</div>
+						<div class="row">
+							<!-- Screaming Orphans
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/screaming-orphans.png" alt="Screaming Orphans Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The Screaming Orphans are four sisters with the good fortune to have been raised in the magic of Bundoran in County onegal, Ireland.</p>
+												</div>
+												<a href="https://www.facebook.com/screamingorphans" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://twitter.com/screamingorphan" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="https://www.instagram.com/screamingorphans/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="https://www.youtube.com/user/screamingorphans" class="social-icon si-rounded si-colored si-small si-youtube"
+													title="YouTube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="https://screamingorphans.com/band.php" class="button button-large button-color nothidden">Visit the Screaming Orphans</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Screaming Orphans</h4><span>Donegal, Ireland</span></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Off Kilter
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/off-kilter.png" alt="Off Kilter Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The musical talent coupled with outrageous stage antics makes Off Kilter a must see band. The band recently ended an 18
+															year run as one of the most popular bands at Walt Disney World in Florida.</p>
+												</div>
+												<a href="https://www.facebook.com/OffKilterRocks/photos/a.1388731348119653/1948759505450165/?type=1&theater" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://twitter.com/OffKilterRocks" class="social-icon si-rounded si-colored si-small si-twitter" title="twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="https://www.instagram.com/OffKilterRocks/" class="social-icon si-rounded si-colored si-small si-instagram" title="instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="https://www.youtube.com/channel/UCi6Eb0fbIHxnK-i_lmlrOrA" class="social-icon si-rounded si-colored si-small si-youtube" title="youtube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="https://offkilterrocks.com/" class="button button-large button-color nothidden">Visit Off Kilter</a>
+											
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Off Kilter</h4><span>Orlando, FL</span></div>
+									</div>
+								</div>
+							</div>
+
+							<!-- American Rogues
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/american-rogues.png" alt="American Rogues Photos">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Drawing favourable comparisons to Wolfstone, Afro Celt Sound System, Trans-Siberian Orchestra, symphonies, and Japanese
+															taiko groups, this American/Canadian group has electrified audiences on three continents for many years.</p>
+												</div>
+												<a href="https://www.facebook.com/NorthAmericasCelticBand/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="http://www.twitter.com/RoguesArmy" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="https://www.youtube.com/channel/UCcTRLZhcfV0ytUwvEckdOog" class="social-icon si-rounded si-colored si-small si-youtube" title="youtube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="https://theamericanrogues.com/home" class="button button-large button-color nothidden">Visit the American Rogues</a>
+											
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>American Rogues</h4><span>Ontario, Canada</span></div>
+									</div>
+								</div>
+							</div> <!-- American Rogues end -->
+						</div> <!-- Entertainment 1 row end -->
+
+						<div class="row">
+							<!-- Narrowbacks
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/narrowbacks.png" alt="The Narrowbacks Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The Narrowbacks are a fresh voice for songs and stories old and new. After some late night sing songs, a couple whiskeys and a few lost jobs we came up with a young punk attitude that found itself running through the veins of an old time folk band.</p>
+												</div>
+												<a href="https://www.facebook.com/TheNarrowbacks/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://twitter.com/TheNarrowbacks" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="http://instagram.com/thenarrowbacks" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</div>
+											<a href="http://www.narrowbacks.com/" class="button button-large button-color nothidden">Visit the Narrowbacks</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>The Narrowbacks</h4><span>New York, NY</span></div>
+									</div>
+								</div>
+							</div> <!-- Narrowbacks end -->
+	
+							<!-- Gaelic Brew
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/gaelic-brew.png" alt="Gaelic Brew Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Ireland's Most Popular Traditional Irish Ballad Band with a lively Rock Sensability from Cork Ireland.</p>
+												</div>
+												<a href="https://www.facebook.com/gaelicbrewpage/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="http://twitter.com/home?status=Check%20Out%20Our%20Sound%20-%20http://gaelicbrew.com/?p=2213" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+											</div>
+											<a href="http://gaelicbrew.com/" class="button button-large button-color nothidden">Visit Gaelic Brew</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Gaelic Brew</h4><span>Cork, Ireland</span></div>
+									</div>
+								</div>
+							</div> <!-- Gaelic Brew end -->
+	
+							<!-- The Byrne Brothers
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/byrne-brothers.png" alt="The Byren Brothers Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The Byrne Brothers and Dad Tommy are Ireland's biggest band on social media! Their Show combines explosive foot stomping Jigs & Reels with world class Irish Dancing and they sing too.</p>
+												</div>
+												<a href="https://www.facebook.com/byrnebrothers/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="https://www.youtube.com/channel/UCsDUnqCbIkRn5u0H33mvZrg" class="social-icon si-rounded si-colored si-small si-youtube" title="YouTube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="https://www.thebyrnebrothers.com/" class="button button-large button-color nothidden">Visit the Byrne Brothers</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>The Byrne Brothers</h4><span>Donegal, Ireland</span></div>
+									</div>
+								</div>
+							</div> <!-- The Byrne Brothers end -->
+						</div> <!-- Entertainment 2 row end -->
+
+						<div class="row">
+							<!-- Colm Keegan 
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/colm-keegan.png" alt="Colm Keegan Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Multi-award winning Irish singer Colm Keegan is best known as one of the Principal singers Celtic Thunder. Colm may still only be in his 20s but has already achieved an extensive career to date.</p>
+												</div>
+												<a href="https://www.facebook.com/Colm-Keegan-369685753093376/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://twitter.com/celticCK" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="https://www.instagram.com/celticck/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="https://www.youtube.com/channel/UCWkIQKvzaTdXriAOypg1xeg" class="social-icon si-rounded si-colored si-small si-youtube" title="YouTube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="http://colmkeegan.com/" class="button button-large button-color nothidden">Visit Colm Keegan</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Colm Keegan</h4><span>Dublin, Ireland</span></div>
+									</div>
+								</div>
+							</div> <!-- Colm Keegan end -->
+	
+							<!-- New Barleycorn
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/new-barleycorn.png" alt="The New Barleycorn Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The New Barleycorn present their live Irish show with vitality, passion and a touch of humor, singing and playing both contemporary folk and traditional Celtic songs and music, which they have.</p>
+												</div>
+												<a href="http://www.facebook.com/pages/The-New-Barleycorn/174616562559009?v=wall" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</div>
+											<a href="http://www.thenewbarleycorn.com/" class="button button-large button-color nothidden">Visit the New Barleycorn</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>The New Barleycorn</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- New Barleycorn end -->
+	
+							<!-- Mary's Lane
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/marys-lane.png" alt="Mary's Lane Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>The band Marys Lane is rock, and reel, but most of all, the good times roll. Their Cleveland Rock roots are evident. Everyone comes, everyone joins in, one way or another, and everyone leaves wishing the night would never end.</p>
+												</div>
+												<a href="https://www.facebook.com/maryslaneband" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://twitter.com/maryslane" class="social-icon si-rounded si-colored si-small si-twitter" title="Twitter">
+													<i class="icon-twitter"></i>
+													<i class="icon-twitter"></i>
+												</a>
+												<a href="https://www.instagram.com/maryslaneband/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+												<a href="https://www.youtube.com/channel/UCV7CSxjqRBP4NSgnpeSP9sA" class="social-icon si-rounded si-colored si-small si-youtube" title="YouTube">
+													<i class="icon-youtube"></i>
+													<i class="icon-youtube"></i>
+												</a>
+											</div>
+											<a href="http://www.maryslane.com/" class="button button-large button-color nothidden">Visit Mary's Lane</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Mary's Lane</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Mary's Lane end -->
+						</div> <!-- Entertainment 3 row end -->
+
+						<div class="row">
+							<!-- Andrew McManus
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/andrew-mcmanus.png" alt="Andrew McManus Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Singer-songwriter and Celtic artist from Armagh, Northern Ireland now living, creating and performing around Cleveland, Ohio.</p>
+												</div>
+												<a href="https://www.facebook.com/AndrewMcManusMusician/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://www.instagram.com/amcmanusmusic/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</div>
+											<a href="http://www.amcmanusmusic.com/" class="button button-large button-color nothidden">Visit Andrew McManus</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Andrew McManus</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Andrew McManus end -->
+			
+							<!-- Murphy Irish Arts
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/murphy-irish-arts-logo.jpg" alt="Murphy Irish Arts Dance School Logo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p></p>
+												</div>
+											</div>
+											<a href="http://murphyirishartscenter.net/" class="button button-large button-color nothidden">Visit Murphy Irish Arts</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Murphy Irish Arts</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Murphy Irish Arts end -->
+			
+							<!-- Mad Macs
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/mad-macs.jpg" alt="The Byren Brothers Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Mad Macs are an Irish/Celtic band from Cleveland. A great blend of modern and traditional Irish and Celtic music for your listening enjoyment.</p>
+												</div>
+												<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</div>
+											<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="button button-large button-color nothidden">Learn more about Mad Macs</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Mad Macs</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Mad Macs end -->
+						</div> <!-- Entertainment 4 row end -->
+
+						<div class="row">
+							<!-- Andrew McManus
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/andrew-mcmanus.png" alt="Andrew McManus Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Singer-songwriter and Celtic artist from Armagh, Northern Ireland now living, creating and performing around Cleveland, Ohio.</p>
+												</div>
+												<a href="https://www.facebook.com/AndrewMcManusMusician/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://www.instagram.com/amcmanusmusic/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</div>
+											<a href="http://www.amcmanusmusic.com/" class="button button-large button-color nothidden">Visit Andrew McManus</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Andrew McManus</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Andrew McManus end -->
+							
+							<!-- Murphy Irish Arts
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/murphy-irish-arts-logo.jpg" alt="Murphy Irish Arts Dance School Logo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p></p>
+												</div>
+											</div>
+											<a href="http://murphyirishartscenter.net/" class="button button-large button-color nothidden">Visit Murphy Irish Arts</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Murphy Irish Arts</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Murphy Irish Arts end -->
+							
+							<!-- Mad Macs
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/mad-macs.jpg" alt="The Byren Brothers Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Mad Macs are an Irish/Celtic band from Cleveland. A great blend of modern and traditional Irish and Celtic music for your listening enjoyment.</p>
+												</div>
+												<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</div>
+											<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="button button-large button-color nothidden">Learn more about Mad Macs</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Mad Macs</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Mad Macs end -->
+						</div> <!-- Entertainment 5 row end -->
+
+						<div class="row">
+							<!-- Andrew McManus
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/andrew-mcmanus.png" alt="Andrew McManus Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Singer-songwriter and Celtic artist from Armagh, Northern Ireland now living, creating and performing around Cleveland, Ohio.</p>
+												</div>
+												<a href="https://www.facebook.com/AndrewMcManusMusician/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="https://www.instagram.com/amcmanusmusic/" class="social-icon si-rounded si-colored si-small si-instagram" title="Instagram">
+													<i class="icon-instagram"></i>
+													<i class="icon-instagram"></i>
+												</a>
+											</div>
+											<a href="http://www.amcmanusmusic.com/" class="button button-large button-color nothidden">Visit Andrew McManus</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Andrew McManus</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Andrew McManus end -->
+							
+							<!-- Murphy Irish Arts
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/murphy-irish-arts-logo.jpg" alt="Murphy Irish Arts Dance School Logo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p></p>
+												</div>
+											</div>
+											<a href="http://murphyirishartscenter.net/" class="button button-large button-color nothidden">Visit Murphy Irish Arts</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Murphy Irish Arts</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Murphy Irish Arts end -->
+							
+							<!-- Mad Macs
+							============================================= -->
+							<div class="col-md-4 bottommargin">
+								<div class="team">
+									<div class="team-image">
+										<img src="barber/images/barbers/mad-macs.jpg" alt="The Byren Brothers Photo">
+										<div class="team-overlay">
+											<div class="team-social-icons">
+												<div class="team-bio">
+													<p>Mad Macs are an Irish/Celtic band from Cleveland. A great blend of modern and traditional Irish and Celtic music for your listening enjoyment.</p>
+												</div>
+												<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="social-icon si-rounded si-colored si-small si-facebook" title="Facebook">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+											</div>
+											<a href="https://www.facebook.com/pages/category/Musician-Band/Mad-Macs-Irish-Celtic-Band-2273457846310552/" class="button button-large button-color nothidden">Learn more about Mad Macs</a>
+										</div>
+									</div>
+									<div class="team-desc">
+										<div class="team-title"><h4>Mad Macs</h4><span>Cleveland, OH</span></div>
+									</div>
+								</div>
+							</div> <!-- Mad Macs end -->
+						</div> <!-- Entertainment 6 row end -->
+					
 					</div>
-				</div><!-- #section-speaker end -->
+				</div><!-- #section-entertainers end -->
 
 				<div class="clear"></div>
 
@@ -1031,6 +1409,10 @@
 	<!-- Go To Top
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
 
 	<!-- External JavaScripts
 	============================================= -->
@@ -1108,6 +1490,22 @@
 
 		});
 
+	</script>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="barber/js/jquery.js"></script>
+	<script src="barber/js/plugins.js"></script>
+	
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="barber/js/functions.js"></script>
+			
+	<script>
+		jQuery(document).ready( function($){
+			var newDate = new Date(2019, 9, 20);
+			$('#countdown-ex1').countdown({until: newDate});
+		});
 	</script>
 
 </body>

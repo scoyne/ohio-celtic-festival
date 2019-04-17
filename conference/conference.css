@@ -325,7 +325,9 @@ ul.tab-nav:not(.tab-nav-lg) li a {
 
 	#header,
 	#header-wrap,
-	#logo img { height: 60px; }
+	#logo img { 
+		height: 100px; /* changed from 60px */ 
+	}
 
 	#header.sticky-header:not(.static-sticky),
 	#header.sticky-header:not(.static-sticky) #header-wrap,
@@ -414,6 +416,23 @@ ul.tab-nav:not(.tab-nav-lg) li a {
 		border-top: 1px solid rgba(255,255,255,0.1) !important;
 	}
 
-	#primary-menu ul > li > a.button-effect:after { display: none; }
+	#primary-menu ul > li > a.button-effect:after { 
+		display: none; 
+	}
 
+}
+
+.logo-hero {
+	width: 60%;
+	vertical-align: middle;
+}
+
+.date-hero {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.location-hero {
+	font-size: 1.5rem;
+	font-weight: 400;
 }
