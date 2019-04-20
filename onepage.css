@@ -708,6 +708,8 @@ textarea.border-form-control {
 
 }
 
-.entertainers-button {
-	color: #fff;
+.hero-date {
+	color: #FFF;
+	font-size: 50px;
+    font-family: 'Roboto', sans-serif !important;
 }

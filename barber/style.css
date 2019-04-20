@@ -1105,7 +1105,10 @@ body.stretched #header.full-header .container {
 -----------------------------------------------------------------*/
 
 
-#primary-menu { float: right; }
+#primary-menu { 
+	float: right;
+	color: #555 /* added color */
+ }
 
 #primary-menu ul.mobile-primary-menu { display: none; }
 
