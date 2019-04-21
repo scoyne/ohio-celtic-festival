@@ -7498,7 +7498,7 @@ body:not(.device-touch) .button.button-full strong {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #333;
+	color: #bf9456; /* changed from #333 */
 }
 
 .feature-box p {
@@ -9905,7 +9905,11 @@ body:not(.device-touch) .team-overlay {
 	display: inline-block;
 }
 
-.team:hover .team-overlay { opacity: 1; }
+.team:hover .team-overlay { 
+	opacity: 1;
+	color: rgb(10, 10, 10);
+ }
+
 
 
 /* Team Center
@@ -9944,7 +9948,6 @@ body:not(.device-touch) .team-overlay {
 	margin-left: 6px;
 	margin-right: 6px;
 }
-
 
 /* ----------------------------------------------------------------
 	Pricing Boxes
