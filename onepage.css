@@ -709,7 +709,18 @@ textarea.border-form-control {
 }
 
 .hero-date {
-	color: #FFF;
+	color: #eee;
 	font-size: 50px;
-    font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.emphasis-title-intro {
+	font-family: 'Roboto', sans-serif !important;
+	color: #ddd;
+	position: static; 
+	display: block;
+	font-size: 50px; 
+	float: left; 
+	margin-top: 25px;
+	margin-bottom: 0px;
 }
