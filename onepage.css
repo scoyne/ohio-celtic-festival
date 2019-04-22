@@ -260,8 +260,13 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 
 .team-social-icons {
 	position: absolute;
-	width: 100%;
-	bottom: 20px;
+	width: 90%;
+	bottom: 30px;
+    color: #000;
+    font-size: 1em;
+	font-weight: 600;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .dark .team-overlay:before { background-color: rgba(0,0,0,0.9); }
@@ -723,4 +728,8 @@ textarea.border-form-control {
 	float: left; 
 	margin-top: 25px;
 	margin-bottom: 0px;
+}
+
+#section-services-volunteers {
+	color: #fff;
 }
