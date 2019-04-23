@@ -7490,6 +7490,7 @@ body:not(.device-touch) .button.button-full strong {
 	font-size: 28px;
 	text-align: center;
 	line-height: 64px;
+	color: #fff
 }
 
 .feature-box h3 {
@@ -7645,7 +7646,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain .fbox-icon img {
 	border: none !important;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #BF9456; /* changed from #1abc9c*/
 	border-radius: 0;
 }
 
@@ -7654,7 +7655,7 @@ body:not(.device-touch) .button.button-full strong {
 	line-height: 1 !important;
 }
 
-.feature-box.fbox-plain .fbox-icon img { height: 64px; }
+.feature-box.fbox-plain .fbox-icon img { height: 64px; color:.feature-box.fbox-plain .fbox-icon i, .feature-box.fbox-plain .fbox-icon img }
 
 .feature-box.fbox-plain.fbox-image .fbox-icon { width: auto; }
 
@@ -7710,6 +7711,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-center .fbox-icon i {
 	font-size: 42px;
 	line-height: 96px;
+	color: #BF9456;
 }
 
 .feature-box.fbox-center.fbox-outline .fbox-icon i { line-height: 88px; }
