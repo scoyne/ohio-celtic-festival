@@ -7655,7 +7655,9 @@ body:not(.device-touch) .button.button-full strong {
 	line-height: 1 !important;
 }
 
-.feature-box.fbox-plain .fbox-icon img { height: 64px; color:.feature-box.fbox-plain .fbox-icon i, .feature-box.fbox-plain .fbox-icon img }
+.feature-box.fbox-plain .fbox-icon img { height: 64px; 
+	color:
+}
 
 .feature-box.fbox-plain.fbox-image .fbox-icon { width: auto; }
 

@@ -571,6 +571,14 @@ span.middot {
 	overflow: hidden;
 }
 
+.section-2 {
+	position: relative;
+	margin: 60px 0;
+	padding: 90px 0;
+	background-color: #000;
+	overflow: hidden;
+}
+
 .parallax {
 	background-color: transparent;
 	background-attachment: fixed;
@@ -7506,7 +7514,7 @@ body:not(.device-touch) .button.button-full strong {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #333;
+	color: #FFF; /* changed from #333 */
 }
 
 .feature-box p {
@@ -7653,7 +7661,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain .fbox-icon img {
 	border: none !important;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #BF9459; /* changed from #1abc9c */
 	border-radius: 0;
 }
 

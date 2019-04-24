@@ -7642,7 +7642,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain .fbox-icon img {
 	border: none !important;
 	background-color: transparent !important;
-	color: #1ABC9C;
+	color: #BF9456; /* changed from #1abc9c */
 	border-radius: 0;
 }
 
