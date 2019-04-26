@@ -575,8 +575,18 @@ span.middot {
 	position: relative;
 	margin: 60px 0;
 	padding: 90px 0;
-	background-color: #000;
+	background-color: #bf9459; /* changed from #000 */
 	overflow: hidden;
+}
+
+#content-2 h2 {
+    color: #3a5335;
+}
+
+
+
+.section-2 h2 {
+	color: #3a5335;
 }
 
 .parallax {
@@ -3536,7 +3546,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #000; /* changed from #fff */
+	background-color: #184A2A; /* 4/26 changed from #000 - changed from #fff */
 	color: #fff; */
 }
 
