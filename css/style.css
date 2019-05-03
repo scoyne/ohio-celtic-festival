@@ -709,11 +709,20 @@ body.stretched .container-fullwidth {
 .flexslider a:focus  { outline: none; border: none; }
 .slider-wrap,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none;}
+.flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none; }
 
-.flexslider {position: relative;margin: 0; padding: 0;}
+.flexslider {position: relative; margin: 0; padding: 0;}
 .flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;}
 .flexslider .slider-wrap img {width: 100%; display: block;}
+.flexslider .slider-wrap .slide img {
+	width: 100%;
+}
+#about-slider {
+	margin-top: -250px;
+	z-index: 15;
+	text-transform:left;
+}
+
 .flex-pauseplay span {text-transform: capitalize;}
 
 .slider-wrap:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
@@ -723,7 +732,7 @@ html[xmlns] .slider-wrap {display: block;}
 .no-js .slider-wrap > .slide:first-child {display: block;}
 
 .flex-viewport {
-	max-height: 2000px;
+	max-height: 100%;
 	-webkit-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
@@ -3204,6 +3213,7 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	-webkit-transition: background-color .3s ease-in-out;
 	-o-transition: background-color .3s ease-in-out;
 	transition: background-color .3s ease-in-out;
+	visibility: hidden; /*added 5/2/19 */
 }
 
 .slider-arrow-top-sm,
