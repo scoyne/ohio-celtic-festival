@@ -2857,6 +2857,10 @@ body.side-panel-open:not(.device-xs):not(.device-sm):not(.device-md) .body-overl
 /* ----------------------------------------------------------------
 	Slider
 -----------------------------------------------------------------*/
+#rev-slider img {
+	height:50%;
+}
+
 
 
 .slider-element {
@@ -13813,6 +13817,12 @@ body:not(.no-transition) #wrapper,
 .rating-container .filled-stars {
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
+}
+
+#slide-1494-layer-6 ul li img {
+	z-index: 15; 
+	min-width: 140px; 
+	max-width: 140px;
 }
 
 
