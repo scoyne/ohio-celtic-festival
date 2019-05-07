@@ -9,7 +9,7 @@
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700%7CPlayfair+Display:400,400italic,700%7CLato:300,400,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 
@@ -31,6 +31,11 @@
 
 	<!-- Color Scheme -->
 	<link rel="stylesheet" href="css/colors.php?color=1E8C93" type="text/css" />
+	
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style3.css" />
+	<script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
 
 	<!-- Document Title
 	============================================= -->
@@ -42,6 +47,7 @@
 
 		.tp-caption.Gym-Display.font-secondary,
 		.Gym-Display.font-secondary { font-family: 'Playfair Display', Serif; }
+
 	</style>
 
 </head>
@@ -112,7 +118,7 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper full-screen clearfix" data-loop="true">
+		<section id="slider1" class="slider-element swiper_wrapper full-screen clearfix" data-loop="true">
 
 			<div class="swiper-container swiper-parent">
 				<div class="swiper-wrapper">
@@ -201,18 +207,50 @@
 		<!-- Content
 		============================================= -->
 		<section id="content">
-			<div class="content-wrap notoppadding">
+				<div class="section nomargin" style="center bottom no-repeat; background-size: cover; padding: 80px 0 180px;">
+					<!-- TEST -->
+					<ul class="cb-slideshow">
+						<li><span>Image 01</span>
+							<div>
+								<h3>family friendly!</h3>
+							</div>
+						</li>
+						<li><span>Image 02</span>
+							<div>
+								<h3>bands from the us, ireland &amp; canada</h3>
+							</div>
+						</li>
+						<li><span>Image 03</span>
+							<div>
+								<h3>irish coffee shop!</h3>
+							</div>
+						</li>
+						<li><span>Image 04</span>
+							<div>
+								<h3>bagpipe bands!</h3>
+							</div>
+						</li>
+						<li><span>Image 05</span>
+							<div>
+								<h3>irish &amp; american food!</h3>
+							</div>
+						</li>
+						<li><span>Image 06</span>
+							<div>
+								<h3>beers from ireland</h3>
+							</div>
+						</li>
+					</ul>
+					<!-- TEST END -->
 
-				<div class="section nomargin" style="background: url('demos/gym/images/section/bg-1.jpg') center bottom no-repeat; background-size: cover; padding: 80px 0 180px;">
+
 					<div class="container clearfix">
 						<div class="row clearfix">
 							<div class="col-md-5 col-sm-7">
 								<div class="notopmargin hidden-xs hidden-sm"></div>
 								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading font-secondary">Retina Ready &#x7E; 534 PPI</span>
-									<h2 style="font-size: 46px;" class="font-body t700">Yesterday you said Tomorrow!</h2>
+									<h2 style="font-size: 46px; margin-top: 10px;" class="font-body t700">The Ohio Celtic Festival is ...	</h2>
 								</div>
-								<p style="color: #777;" class="lead">We all have the same amount of hours in our day.  Deciding how to use your hours is up to you.</p>
 							</div>
 						</div>
 					</div>
@@ -709,5 +747,10 @@
 		});
 	</script>
 
+	<script>
+		$('#myCarousel').carousel({
+		pause: 'none'
+		})
+	</script>
 </body>
 </html>
