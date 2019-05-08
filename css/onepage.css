@@ -36,13 +36,6 @@
 
 #header.transparent-header:not(.sticky-header) #header-wrap { background-color: transparent; }
 
-#header.transparent-header + #slider,
-#header.transparent-header + #page-title.page-title-parallax,
-#header.transparent-header + #google-map,
-#slider + #header.transparent-header {
-	top: -70px;
-	margin-bottom: -70px;
-}
 
 #header.full-header #logo { border-right: 0; }
 
@@ -707,4 +700,24 @@ textarea.border-form-control {
 	.overlay-menu #primary-menu.dark ul { background-color: transparent; }
 
 }
+.hero-dates {
+	height: 50%;
+	background-color: #667;
+}
+.hero-dates h3 {
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 100px;
+	padding:10px;
+	line-height: 120px;
+	color: rgba(255,255,255,0.8);
+	text-align: center
+}
 
+.hero-dates h4 {
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 60px;
+	padding: 10px;
+	line-height: 120px;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+}
