@@ -561,7 +561,13 @@ span.middot {
 /* ----------------------------------------------------------------
 	Sections
 -----------------------------------------------------------------*/
-
+#tickets.section {
+    position: relative;
+	margin: 20px 0;
+	padding: 15px 0;
+    background-color: #667;
+    overflow: hidden;
+}
 
 .section {
 	position: relative;
@@ -3560,7 +3566,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #content {
 	position: relative;
 	overflow: hidden;
-	background-color: #184A2A; /* 4/26 changed from #000 - changed from #fff */
+	background-color: #000; /* 4/26 changed from #184a2a - changed from #fff */
 	color: #fff; */
 }
 
@@ -7824,6 +7830,23 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box.fbox-center.fbox-plain.fbox-small p { margin-left: 0; }
 
+/* Feature Box - Left
+-----------------------------------------------------------------*/
+.feature-box.fbox-left {
+	padding: 0 -180px 0 0;
+	text-align: left;
+}
+
+.feature-box.fbox-left.fbox-large { padding-left: 115px; }
+
+.feature-box.fbox-left .fbox-icon {
+	right: auto;
+	left: 0;
+}
+
+.feature-box.fbox-left.fbox-plain.fbox-small { padding: 0 42px 0 0; }
+
+.feature-box.fbox-left.fbox-plain.fbox-small p { margin: 0 -42px 0 0; }
 
 /* Feature Box - Right
 -----------------------------------------------------------------*/
