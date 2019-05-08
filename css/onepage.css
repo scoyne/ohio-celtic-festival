@@ -141,9 +141,9 @@ body.side-panel-left.side-push-panel.side-panel-open.stretched #header .containe
 ---------------------------------------------------------------------------- */
 
 .heading-block h2 {
-	font-weight: 500;
+	font-weight: 100;
 	letter-spacing: 3px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Raleway;
 }
 
 
@@ -584,6 +584,7 @@ textarea.border-form-control {
 #slider:hover .big-video-button.video-played { opacity: 1; }
 
 
+
 .slider-caption h2 {
 	font-size: 78px;
 	letter-spacing: 3px;
@@ -702,22 +703,21 @@ textarea.border-form-control {
 }
 .hero-dates {
 	height: 50%;
-	background-color: #667;
+	background-color: #000;
 }
 .hero-dates h3 {
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-	font-size: 100px;
-	padding:10px;
-	line-height: 120px;
-	color: rgba(255,255,255,0.8);
+	font-family: Raleway;
+	font-size: 120px;
+	font-weight: 100;
+	color: rgba(255,255,255,1);
 	text-align: center
 }
 
 .hero-dates h4 {
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-family: Raleway;
 	font-size: 60px;
-	padding: 10px;
-	line-height: 120px;
-	color: rgba(255,255,255,0.8);
+	font-weight: 700;
+	color: rgba(255,255,255,1);
 	text-align: center;
+	margin-top: -25px;
 }
