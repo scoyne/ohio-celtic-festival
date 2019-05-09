@@ -1028,7 +1028,7 @@ html[xmlns] .slider-wrap {display: block;}
 #header.transparent-header + #page-title.page-title-parallax,
 #header.transparent-header + #google-map,
 #slider + #header.transparent-header {
-	top: 20px;
+	top: 30px;
 	margin-bottom: -50px;
 }
 
