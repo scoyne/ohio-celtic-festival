@@ -1028,8 +1028,8 @@ html[xmlns] .slider-wrap {display: block;}
 #header.transparent-header + #page-title.page-title-parallax,
 #header.transparent-header + #google-map,
 #slider + #header.transparent-header {
-	top: 90px;
-	margin-bottom: -50px;
+	top: ; /* was 30px */
+	margin-bottom: ; /* was -50px */
 }
 
 #header.transparent-header.floating-header + #slider,
@@ -1220,7 +1220,7 @@ body.stretched #header.full-header .container {
 }
 
 #primary-menu ul li:hover > a,
-#primary-menu ul li.current > a { color: #1ABC9C; }
+#primary-menu ul li.current > a { color: #24a212; /* was #1ABC9C; */ }
 
 #primary-menu > ul > li.sub-menu > a > div { }
 
